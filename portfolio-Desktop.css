@@ -10,6 +10,7 @@
     width: 25%;
 }
 
+/*  */
 .col-4 {
     width: 33.33%;
 }
@@ -123,6 +124,22 @@
 
 /* Professional Experience Section end */
 
+/* Skills Start */
+.skills {
+    display: flex;
+}
+
+.column-left {
+    width: 50%;
+    margin: 12px;
+}
+
+.column-right {
+    width: 50%;
+}
+
+/* Skills end */
+
 /* Contact Section start */
 .achivement {
     padding-right: 50px;
@@ -136,4 +153,29 @@
     background-color: gray;
 }
 
+.contact-links {
+    position: relative;
+}
+
+.media-buttons {
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* Contact Section end */
+
+/* Footer start */
+.footer-menu {
+    margin-top: 12px;
+}
+
+.footer-menu a {
+    display: inline;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+/* Footer End */

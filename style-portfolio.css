@@ -17,6 +17,8 @@ h2 {
     text-align: center;
 }
 
+/*  */
+
 a {
     color: white;
     font: 1.2rem;
@@ -30,6 +32,13 @@ p {
 
 .dotted-hr {
     border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+
+.dotted-hr-white {
+    border: dotted 6px black;
     border-bottom: none;
     margin: 20px auto;
     width: 70px;
@@ -82,7 +91,7 @@ p {
 }
 
 
-.nav-logo>img {
+.nav-logo>a>img {
     width: 70px;
     height: 50px;
 }
@@ -196,12 +205,15 @@ p {
     padding: 1% 0%;
 }
 
+.professional-experience>h2 {
+    text-transform: uppercase;
+}
+
 .professional-experience .card {
     background-color: #a39e9e;
     border-radius: 5px;
     padding: 10px;
     transition: 0.3s;
-    height: 580px;
 }
 
 .card:hover {
@@ -239,10 +251,20 @@ p {
 }
 
 /* Professional Experience Section End */
+
+
+
+
 /* Skills Section start */
-.skills-container {
-    padding-right: 45px;
+.skills-content>h2 {
+    text-transform: uppercase;
 }
+
+.skills {
+    padding: 5%;
+    margin: 5px;
+}
+
 
 .skills-container li {
     list-style: none;
@@ -392,12 +414,14 @@ textarea {
     font-size: 32px;
     margin: 10px;
     width: 50px;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: gray;
 }
 
 /* Links colorized */
-#youtube {
-    color: #c4302b;
-}
 
 /* Contact Section End */
 
@@ -409,3 +433,34 @@ textarea {
     display: table;
     clear: both;
 }
+
+
+
+
+/* Footer start */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer-menu a {
+    display: block;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.footer-menu a:hover {
+    color: gray;
+}
+
+
+.footer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Footer End */
