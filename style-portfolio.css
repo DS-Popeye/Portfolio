@@ -549,11 +549,12 @@ textarea {
 }
 
 .footer-menu {
-    /* top: 30px; */
+    padding: 60px;
 }
 
 .copyright {
     text-align: center;
+    padding: 40px;
 }
 
 .footer-menu a {
@@ -610,7 +611,7 @@ textarea {
 
 .footer-cesc .copyright {
     text-align: center;
-    padding-top: 24px;
+    padding-top: 50px;
     font-weight: 500;
     opacity: 0.8;
     font-size: 16px;
