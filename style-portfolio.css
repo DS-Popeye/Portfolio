@@ -548,6 +548,14 @@ textarea {
     font-size: 0.8rem;
 }
 
+.footer-menu {
+    /* margin-top: ; */
+}
+
+.copyright {
+    text-align: center;
+}
+
 .footer-menu a {
     display: block;
     margin: 15px 0;
@@ -557,7 +565,7 @@ textarea {
 }
 
 .footer-menu a:hover {
-    color: white;
+    color: black;
     background-color: gray;
 }
 
