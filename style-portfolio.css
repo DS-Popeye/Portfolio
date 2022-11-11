@@ -37,14 +37,14 @@ p {
 }
 
 .dotted-hr {
-    border: dotted 6px white;
+    border: dotted 6px black;
     border-bottom: none;
     margin: 20px auto;
     width: 70px;
 }
 
 .dotted-hr-white {
-    border: dotted 6px black;
+    border: dotted 6px white;
     border-bottom: none;
     margin: 20px auto;
     width: 70px;
@@ -549,7 +549,7 @@ textarea {
 }
 
 .footer-menu {
-    /* margin-top: ; */
+    /* top: 30px; */
 }
 
 .copyright {
