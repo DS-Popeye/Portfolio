@@ -125,7 +125,95 @@ p {
 .profile-desc h1 {
     font-family: 'Satisfy', cursive;
     font-size: 3rem;
+    color: black;
 }
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+
+.profile-desc-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: auto;
+    background: white;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper .static-txt {
+    color: black;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 .profile-desc p {
     color: gray;
@@ -230,8 +318,10 @@ h1 {
     margin: 10px;
     box-sizing: border-box;
     box-shadow: 1px 2px 4px black;
+}
 
-
+.my-project>h2 {
+    text-transform: uppercase;
 }
 
 .img {
@@ -241,6 +331,7 @@ h1 {
 .edu-card-body {
     padding: 5px;
     background-color: #761f8c;
+    height: auto;
 }
 
 .card-title {
@@ -255,6 +346,7 @@ h1 {
     line-height: 1.5;
 
     color: lightcyan;
+    height: auto;
 }
 
 .edu-card:hover:hover {
@@ -271,6 +363,10 @@ h1 {
 .skills-content>h2 {
     text-transform: uppercase;
 
+}
+
+.column-left {
+    color: white;
 }
 
 .skills {
@@ -481,6 +577,10 @@ textarea {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 15px;
+}
+
+.container>h2 {
+    text-transform: uppercase;
 }
 
 .container .box-container .box {
