@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
-    outline: none; border:none;
+    outline: none;
+    border: none;
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
@@ -206,16 +207,17 @@ p {
 
 
 /* Education and Section start */
-h1{
+h1 {
     text-align: center;
     font-size: 35px;
     color: rgb(10, 238, 48);
     text-transform: uppercase;
 
 }
-.card-contai{
+
+.card-contai {
     box-sizing: border-box;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     background-color: cadetblue;
     padding: 20px 0;
@@ -223,34 +225,39 @@ h1{
     align-items: center;
 }
 
-.edu-card{
+.edu-card {
     width: 300px;
     margin: 10px;
     box-sizing: border-box;
     box-shadow: 1px 2px 4px black;
-   
+
 
 }
-.img{
-     width: 100%;  
+
+.img {
+    width: 100%;
 }
-.edu-card-body{
+
+.edu-card-body {
     padding: 5px;
-    background-color:#761f8c;
+    background-color: #761f8c;
 }
-.card-title{
+
+.card-title {
     font-size: 2rem;
     text-align: center;
     color: white;
-    
+
 }
-.card-d{
+
+.card-d {
     text-align: justify;
     line-height: 1.5;
 
     color: lightcyan;
 }
-.edu-card:hover:hover{
+
+.edu-card:hover:hover {
     box-shadow: 6px 12px 10px white;
 }
 
@@ -263,7 +270,7 @@ h1{
 /* Skills Section start */
 .skills-content>h2 {
     text-transform: uppercase;
-  
+
 }
 
 .skills {
@@ -369,9 +376,8 @@ h1{
     }
 }
 
-@media sceen
- {
-    #toggleDark{
+@media sceen {
+    #toggleDark {
         font-size: 40px;
         cursor: pointer;
         position: absolute;
@@ -457,35 +463,35 @@ textarea {
 
 
 /* project start */
-.container{
-    background:linear-gradient(45deg, blueviolet, lightgreen);
-    padding:15px 9%;
+.container {
+    background: linear-gradient(45deg, blueviolet, lightgreen);
+    padding: 15px 9%;
     padding-bottom: 100px;
 }
 
-.container .heading{
+.container .heading {
     text-align: center;
     padding-bottom: 15px;
-    color:#fff;
-    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     font-size: 50px;
 }
 
-.container .box-container{
+.container .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap:15px;
+    gap: 15px;
 }
 
-.container .box-container .box{
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+.container .box-container .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     border-radius: 5px;
     background: #fff;
     text-align: center;
-    padding:30px 20px;
+    padding: 30px 20px;
 }
 
-.container .box-container .box img{
+.container .box-container .box img {
     position: relative;
     width: 100%;
     height: 260px;
@@ -493,40 +499,40 @@ textarea {
     border-radius: 10px;
 }
 
-.container .box-container .box h3{
-    color:#444;
+.container .box-container .box h3 {
+    color: #444;
     font-size: 22px;
-    padding:10px 0;
+    padding: 10px 0;
 }
 
-.container .box-container .box p{
-    color:#777;
+.container .box-container .box p {
+    color: #777;
     font-size: 15px;
     line-height: 1.8;
 }
 
-.container .box-container .box .btn{
+.container .box-container .box .btn {
     margin-top: 10px;
     display: inline-block;
-    background:#333;
-    color:#fff;
+    background: #333;
+    color: #fff;
     font-size: 17px;
     border-radius: 5px;
     padding: 8px 25px;
 }
 
-.container .box-container .box .btn:hover{
+.container .box-container .box .btn:hover {
     letter-spacing: 1px;
 }
 
-.container .box-container .box:hover{
-    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+.container .box-container .box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
     transform: scale(1.03);
 }
 
-@media (max-width:768px){
-    .container{
-        padding:20px;
+@media (max-width:768px) {
+    .container {
+        padding: 20px;
     }
 }
 
@@ -535,7 +541,7 @@ textarea {
 
 /* Footer start */
 .footer {
-    background-color: gray;
+    background-color: black;
     color: white;
     padding: 20px;
     text-align: center;
@@ -545,11 +551,14 @@ textarea {
 .footer-menu a {
     display: block;
     margin: 15px 0;
+    padding: 5px;
     font-size: 1rem;
+    border-radius: 10px;
 }
 
 .footer-menu a:hover {
-    color: gray;
+    color: white;
+    background-color: gray;
 }
 
 
@@ -561,7 +570,7 @@ textarea {
 
 
 
-.footer-cesc.social{
+.footer-cesc.social {
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -569,8 +578,9 @@ textarea {
     padding-bottom: 0px;
     border-top: 1px solid #eee;
     margin-top: 50px;
-  }
-  .footer-cesc .social a{
+}
+
+.footer-cesc .social a {
     font-size: 22px;
     width: 45px;
     height: 45px;
@@ -583,20 +593,20 @@ textarea {
     color: #fff;
     opacity: 0.7;
     transition: 0.3s ease-in-out;
-  }
-  .footer-cesc .social a:hover{
+}
+
+.footer-cesc .social a:hover {
     opacity: 0.9;
     box-shadow: 0px 1px 3px 2px rgba(255, 255, 255, 0.9);
-  }
-  .footer-cesc .copyright{
+}
+
+.footer-cesc .copyright {
     text-align: center;
     padding-top: 24px;
     font-weight: 500;
     opacity: 0.8;
     font-size: 16px;
     display: inline-block;
-  }
+}
 
 /* Footer End */
-
-
