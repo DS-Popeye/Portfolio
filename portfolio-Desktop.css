@@ -1,7 +1,7 @@
 .col-1 {
     width: 8.33%;
 }
-
+/*  */
 .col-2 {
     width: 16.66%;
 }
@@ -141,9 +141,7 @@
 /* Skills end */
 
 /* Contact Section start */
-.achivement {
-    padding-right: 50px;
-}
+
 
 .contact button {
     width: 100px;
