@@ -62,7 +62,7 @@ p {
 
 /* Navebar Design start  */
 .navbar {
-    background-color: #3d5afe;
+    background-color: #591948;
     padding: 1% 7%;
     text-align: center;
 }
@@ -125,7 +125,7 @@ p {
 .profile-desc h1 {
     font-family: 'Satisfy', cursive;
     font-size: 3rem;
-    color: black;
+    color: blueviolet;
 }
 
 
@@ -198,6 +198,9 @@ p {
     margin: 10px;
 }
 
+.cv-button:hover{
+    background-color: gray;
+}
 .about-me::after {
     clear: both;
     display: table;
@@ -217,7 +220,7 @@ h1 {
 
 }
 
-.card-contai {
+.card-containt {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -234,6 +237,10 @@ h1 {
     box-shadow: 1px 2px 4px black;
 }
 
+.edu-card .img{
+    width: 300px;
+    height: 250px;
+}
 .my-project>h2 {
     text-transform: uppercase;
 }
@@ -263,7 +270,7 @@ h1 {
     height: auto;
 }
 
-.edu-card:hover:hover {
+.edu-card:hover{
     box-shadow: 6px 12px 10px white;
 }
 
@@ -317,7 +324,7 @@ h1 {
     left: 0;
     width: 0;
     height: 10px;
-    background-color: rgba(92, 92, 183, 1);
+    background-color: rgb(230, 114, 52);
     border-radius: 1000px;
     animation-duration: 3s;
     animation-timing-function: linear;
@@ -402,7 +409,7 @@ h1 {
 
 .contact-me {
     padding: 1% 0%;
-    background-color: #30a4ac;
+    background-color: #591948;
     color: white;
 }
 
