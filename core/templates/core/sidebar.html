@@ -1,0 +1,15 @@
+{% load static %}
+<div class="border-end border-warning h-100">
+  <div class="text-center">
+    <img src="{% static 'core\images\193-35-487 (1).jpg'%}" alt="Profile Picture" class="img-fluid rounded-circle mt-5"
+      height="100px" width="100px">
+    <h3 class="text-white mt-3 st-font">MD RABIUL AWAL SHUVO</h3>
+  </div>
+  <hr class="border-light">
+  <nav class="nav flex-column text-center">
+    <a href="{% url "home" %}" class="nav-link {{home}}">Home</a>
+    <a href="{% url "services" %}" class="nav-link {{services}}">Services</a>
+    <a href="{% url "skill" %}" class="nav-link {{skill}}">Skills</a>
+    <a href="{% url "contact" %}" class="nav-link {{contact}}">Contact</a>
+  </nav>
+</div>

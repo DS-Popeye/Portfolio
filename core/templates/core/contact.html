@@ -1,0 +1,68 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+  <h1 class="text-warning mb-5 border-bottom">Contact US</h1>
+  <div class="row text-white mb-5">
+    <p class="mx-auto mb-5">
+      Do you have any questuion? Please do not hesitate to conact. I will come back to you within a matter of hours to
+      help you.
+    </p>
+    <div class="col-sm-9 mb-5">
+      <form action="">
+
+        <div class="row">
+          <!--Name-->
+          <div class="form-group col-md-6">
+            <label for="inputName">Your Name</label>
+            <input type="text" class="form-control" id="inputName" />
+          </div>
+
+          <!--Your Email-->
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Your Email *</label>
+            <input type="email" class="form-control" id="inputEmail" required />
+          </div>
+        </div>
+
+
+        <!--Your Subject-->
+        <div class="form-group">
+          <label for="inputSubject">Your Subject</label>
+          <input type="text" class="form-control" id="inputSubject" required />
+        </div>
+
+        <!--Your Message-->
+        <div class="mb-3">
+          <label for="inputTextarea">Your Message</label>
+          <textarea id="inputTextarea" class="form-control" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="col-sm-3 text-center">
+      <ul class="list-unstyled">
+        <li>
+          <i class="fa-solid fa-map-marker fa-2x i-color"></i>
+          <p>Naogaon, Dhaka, Bangladesh</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-phone fa-2x i-color"></i>
+          <p>+880 1764 120595</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope fa-2x i-color"></i>
+          <p>robiulawalshuvo70@gmail.com</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="text-center">
+  <a href="#" target="_blank"><i class="fa-brands fa-twitter i-color me-3"></i></a>
+  <a href="#" target="_blank"><i class="fa-brands fa-facebook i-color me-3"></i></a>
+  <a href="#" target="_blank"><i class="fa-brands fa-instagram i-color me-3"></i></a>
+  <a href="#" target="_blank"><i class="fa-brands fa-dribbble i-color me-3"></i></a>
+</div>
+{% endblock content %}
